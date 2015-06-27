@@ -1,0 +1,14 @@
+#--------------------------------------
+# 環境設定
+# [ホスト名]:
+#   yml:
+#       use_cache : [bool] //true:YMLキャッシュを利用する
+#--------------------------------------
+##### ローカル開発用 #####
+localhost:
+    yml:
+        use_cache : false
+    timezone : Asia/Tokyo
+    url : http://api.openweathermap.org/data/2.5/weather?q=Tokyo,jp
+    application_info:
+        version : 1.0
